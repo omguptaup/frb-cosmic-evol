@@ -47,6 +47,12 @@ Most files are interactive Jupyter Notebooks, so you need to have Jupyter Notebo
 ### Redshift, Energy, DM and FLuence distributions
 - [Generate calibrated distributions](./DMnF_compare_zevol.ipynb)
 
+## Other Packages Used here
+
+- The [FRBs/FRB package](https://github.com/FRBs/FRB) is used here to estimate the average DM-IGM contribution. See the [package license](./frb/LICENSE).
+- The [ne2001 package](https://github.com/FRBs/ne2001) is a Python implementation of Cordes-Lazio's NE2001 Galactic Free Electron Density Model. See the [package license](./ne2001/LICENSE).
+- The [dynesty package](https://github.com/joshspeagle/dynesty) is a Dynamic Nested Sampling package for computing Bayesian posteriors and evidences. Some plotting features of the package have been modified to suit our purpose. See the [package license](./dynestymod/LICENSE).
+
 ## License
 
 This project is licensed under the BSD-3 License. See the [LICENSE](./LICENSE) file for details.
